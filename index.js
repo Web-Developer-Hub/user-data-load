@@ -1,4 +1,4 @@
-fetch('./data.json')
+fetch('./user-data/data.json')
 .then(res => res.json())
 .then(data => showData(data));
 
